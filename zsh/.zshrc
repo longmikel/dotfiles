@@ -8,6 +8,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 autoload -Uz compinit && compinit
 # User configuration
 eval "$(starship init zsh)"
