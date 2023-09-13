@@ -1,0 +1,8 @@
+[".zshrc"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/master/zsh/.zshrc"
+    refreshPeriod = "1h"
+[".zsh/aliases.zsh"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/master/.zsh/alias.zsh"
+    refreshPeriod = "1h"
