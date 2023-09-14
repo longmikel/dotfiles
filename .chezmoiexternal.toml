@@ -2,6 +2,10 @@
     type = "file"
     url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zshrc"
     refreshPeriod = "1h"
+[".zsh/zshrc"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/zshrc"
+    refreshPeriod = "1h"
 [".zsh/aliases.zsh"]
     type = "file"
     url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/aliases.zsh"
