@@ -4,5 +4,13 @@
     refreshPeriod = "1h"
 [".zsh/aliases.zsh"]
     type = "file"
-    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/alias.zsh"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/aliases.zsh"
+    refreshPeriod = "1h"
+[".zsh/fzf.zsh"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/fzf.zsh"
+    refreshPeriod = "1h"
+[".zsh/functions.zsh"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/functions.zsh"
     refreshPeriod = "1h"

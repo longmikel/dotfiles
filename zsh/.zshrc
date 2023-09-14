@@ -13,8 +13,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
-export CHEZMOI="$HOME/.local/share/chezmoi"
-
 autoload -Uz compinit && compinit
 
 # You may need to manually set your language environment
@@ -26,14 +24,3 @@ source $HOME/.zsh/zshrc
 source $HOME/.zsh/alias.zsh
 
 source $HOME/.zsh/fzf.zsh
-
-#case $(uname) in
-#Linux)
-#  [ -f $CHEZMOI/zsh/.zsh/zshrc.linux ] && source $CHEZMOI/zsh/.zsh/zshrc.linux
-#  [ -f $CHEZMOI/zsh/.zsh/alias.linux ] && while read line; do eval "alias $line"; done < $CHEZMOI/zsh/.zsh/alias.linux
-#  ;;
-#Darwin)
-#  [ -f $CHEZMOI/zsh/.zsh/zshrc.osx ] && source $CHEZMOI/zsh/.zsh/zshrc.osx
-#  [ -f $CHEZMOI/zsh/.zsh/alias.osx ] && while read line; do eval "alias $line"; done < $CHEZMOI/zsh/.zsh/alias.osx
-#  ;;
-#esac
