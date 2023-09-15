@@ -21,6 +21,6 @@ export LC_ALL=en_US.UTF-8
 # Load specific config
 source $HOME/.zsh/zshrc
 
-source $HOME/.zsh/alias.zsh
+source $HOME/.zsh/aliases.zsh
 
 source $HOME/.zsh/fzf.zsh

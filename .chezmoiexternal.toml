@@ -18,3 +18,11 @@
     type = "file"
     url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/zsh/.zsh/functions.zsh"
     refreshPeriod = "1h"
+[".tmux.conf"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/longmikel/dotfiles/main/tmux/.tmux.conf"
+    refreshPeriod = "1h"
+[".config/nvim"]
+    type = "git-repo"
+    url = "https://github.com/NvChad/NvChad.git"
+    refreshPeriod = "1h"
