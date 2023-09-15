@@ -9,6 +9,7 @@
 
         brew_packages:
               - atool
+              - autojump
               - bash
               - bat
               - bfs
