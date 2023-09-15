@@ -1,0 +1,48 @@
+# my macOS setup
+
+* Xcode
+- Open Terminal from Spotlight (Command + Space)
+#+begin_src bash
+xcode-select --install
+#+end_src
+
+* Config Hostname and install Brew
+#+begin_src bash
+sh setup_hostname_brew.sh mymac
+#+end_src
+
+* iCloud
+1. Login iCloud
+2. Enable Free Download (iCloud > Media & Purchases)
+
+* Terminal
+- Full Disk Access for Terminal (System Preferences > Security & Privacy > Privacy > Full Disk Access: add Terminal)
+
+* Macos config
+#+begin_src sh
+sh setup_config.sh
+#+end_src
+
+* Setup ansible
+#+begin_src sh
+sh setup_python.sh
+#+end_src
+
+** Install app from appstore
+#+begin_src sh
+sh install_app_store.sh
+#+end_src
+
+** Install app from brew
+#+begin_src sh
+sh install_app_brew.sh
+#+end_src
+
+* Setup nvim
+#+begin_src sh
+venv_auto python
+venv
+gem install neovim
+npm install -g neovim
+pip install pynvim --upgrade
+#+end_src
