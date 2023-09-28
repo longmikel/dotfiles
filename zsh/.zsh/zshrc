@@ -77,8 +77,8 @@ zinit snippet OMZ::plugins/tmux/tmux.plugin.zsh
 zinit ice depth=1 lucid
 zinit light trystan2k/zsh-tab-title
 
-zinit ice depth=1 wait lucid
-zinit light Aloxaf/fzf-tab
+#zinit ice depth=1 wait lucid
+#zinit light Aloxaf/fzf-tab
 
 zinit ice depth=1 wait blockf lucid atpull"zinit creinstall -q ."
 zinit light clarketm/zsh-completions
