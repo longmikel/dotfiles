@@ -1,9 +1,8 @@
 ### Icons Paths
 if [ -x "$(command -v exa)" ]; then
-    alias ls="exa --icons"
-    alias ll="exa --icons"
-    alias tree="exa -T -D --icons"
-    alias la="exa --long --all --group --icons"
+    alias ll="lsd --icon auto"
+    alias tree="lsd --tree"
+    alias la="lsd --long"
 fi
 
 ### Zinit installer
