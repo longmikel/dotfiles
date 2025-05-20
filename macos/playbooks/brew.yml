@@ -2,7 +2,6 @@
 - hosts: localhost
   vars:
         brew_tap:
-              - homebrew/cask-fonts
               - hudochenkov/sshpass
               - tavianator/tap
               - railwaycat/emacsmacport
@@ -22,7 +21,6 @@
               - dark-mode
               - dockutil
               - duti
-              - exa
               - exiftool
               - fd
               - ffmpeg
@@ -47,10 +45,10 @@
               - icdiff
               - isync
               - jump
+              - lsd
               - mas
               - mpv
               - msmtp
-              - msmtprc
               - mu
               - ncdu
               - neovim
@@ -68,12 +66,14 @@
               - ripgrep
               - ruby
               - rust
+              - starship
               - schappim/ocr/ocr
               - spaceship
               - sshpass
               - stow
               - svn
               - syncthing
+              - signal
               - telnet
               - terraform
               - the_silver_searcher
@@ -86,7 +86,6 @@
               - wget
               - wordnet
               - yarn
-              - youtube-dl
 
         brew_packages_remove:
 
@@ -139,13 +138,9 @@
               - 937984704 # Amphetamine
               - 1355679052 # Dropover
               - 975890633 # HotKey
-              - 1071624317 # Lịch Việt
               - 1295203466 # Microsoft Remote Desktop
               - 1284863847 # Unsplash Wallpapers
               - 1137397744 # Bitwarden
-
-        appstore_app_remove:
-              - 1168254295 # AmorphousDiskMark
               - 747648890 # Telegram
               - 1451685025 # WireGuard
 
