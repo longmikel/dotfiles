@@ -13,6 +13,9 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
+# Git completion
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 # You may need to manually set your language environment
